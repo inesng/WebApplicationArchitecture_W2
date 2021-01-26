@@ -1,0 +1,27 @@
+h1{
+  color: RosyBrown;
+  font-size: 56px;
+  font-family: "Helvetica", sans-serif;
+}
+
+.topnav a.active {
+  background-color: Gray;
+  color:whiteSmoke;
+}
+
+body{
+  font-family: "Helvetica", sans-serif;
+  text-align: justify;
+  color: Black;
+  background-color:  Silver;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+a{
+  text-decoration: none;
+  font-size: : 30px;
+  color: #414141;
+}

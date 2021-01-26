@@ -1,0 +1,51 @@
+h1{
+  color: RosyBrown;
+  font-size: 56px;
+  font-family: "Helvetica", sans-serif;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a.active {
+  background-color: Gray;
+  color:whiteSmoke;
+}
+
+body{
+  font-family: "Helvetica", sans-serif;
+  text-align: justify;
+  color: Black;
+  background-color:  White;
+  margin: 10px 100px 20px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-size: : 30px;
+  color: #414141;
+}
+@media (max-width: 992px) {
+      img {
+            width: 1000;
+       }
+}
+
+@media (min-width: 992px) {
+      img {
+            background: yellow;
+            max-width: 100%;
+            height: auto;
+       }
+}
